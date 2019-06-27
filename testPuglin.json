@@ -1,0 +1,23 @@
+[
+    [
+        {
+            "plugin": "append:0"
+        },
+        "1",
+        "10"
+    ], [
+        {
+            "plugin": "isInteger"
+        },
+        "th",
+        null,
+        ".plugin"
+    ], [
+        {
+            "plugin": ["isInteger","append:x","isInteger"]
+        },
+        "1",
+        null,
+        ".plugin[2]"
+    ]
+]
